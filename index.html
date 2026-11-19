@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclone - Stormora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo-area">
+            <div class="logo-text">
+                <h1>Cyclone</h1>
+                <span>Stormora</span>
+            </div>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="understanding.html">Understanding Cyclones</a></li>
+
+                <li class="dropdown active">
+                    <button class="dropbtn active">
+                        Action &amp; Safety
+                        <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="warningsystem.html">Early Warning Systems</a></li>
+                        <li><a href="cyclone_preparation.html">Disaster Preparation</a></li>
+                        <li><a href="prevention.html">Prevention &amp; Risk Reduction</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="casestudy.html">Case Study (Myanmar)</a></li>
+                <li><a href="takeaction.html">Take Action</a></li>
+
+                <li class="search-container">
+                    <button
+                        type="button"
+                        class="search-toggle"
+                        id="searchToggle"
+                        aria-label="Open page search"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+
+                    <div class="search-panel" id="searchPanel">
+                        <div class="search-input-wrapper">
+                            <input
+                                type="search"
+                                id="pageSearch"
+                                placeholder="Search pages..."
+                                autocomplete="off"
+                                aria-label="Search website pages">
+                        </div>
+
+                        <ul class="search-results" id="searchResults">
+                            <li data-name="Homepage">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li data-name="About Us">
+                                <a href="aboutus.html">About Us</a>
+                            </li>
+                            <li data-name="Understanding Cyclones">
+                                <a href="understanding.html">Understanding Cyclones</a>
+                            </li>
+                            <li data-name="Early Warning Systems">
+                                <a href="warningsystem.html">Early Warning Systems</a>
+                            </li>
+                            <li data-name="Disaster Preparation">
+                                <a href="cyclone_preparation.html">Disaster Preparation</a>
+                            </li>
+                            <li data-name="Prevention and Risk Reduction">
+                                <a href="prevention.html">Prevention &amp; Risk Reduction</a>
+                            </li>
+                            <li data-name="Case Study Myanmar">
+                                <a href="casestudy.html">Case Study (Myanmar)</a>
+                            </li>
+                            <li data-name="Take Action">
+                                <a href="takeaction.html">Take Action</a>
+                            </li>
+                        </ul>
+
+                        <p class="no-results" id="noResults">
+                            No pages found.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <div class="hero-wrapper">
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-tag">Stormora &bull; Y-9</div>
+
+                <h2>BE READY.<br>STAY SAFE.</h2>
+
+                <p>
+                    How can we reduce the risks and impacts of cyclones through
+                    early warnings, disaster preparedness, and effective
+                    prevention strategies?
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="warningsystem.html" class="btn btn-blue">
+                        <i class="fa-solid fa-bell"></i> Early Warnings
+                    </a>
+
+                    <a href="cyclone_preparation.html" class="btn btn-orange">
+                        <i class="fa-solid fa-shield-halved"></i> Preparation
+                    </a>
+
+                    <a href="prevention.html" class="btn btn-green">
+                        <i class="fa-solid fa-seedling"></i> Prevention
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="hero-card-top">
+                    <i class="fa-solid fa-hurricane"></i>
+                    <p>Cyclones can't be stopped, but their impacts can be reduced.</p>
+                </div>
+
+                <div class="hero-card-bottom">
+                    <div class="card-stat">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Be Informed</span>
+                    </div>
+
+                    <div class="card-stat">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <span>Be Prepared</span>
+                    </div>
+
+                    <div class="card-stat">
+                        <i class="fa-solid fa-leaf"></i>
+                        <span>Build Resilience</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="info-bar">
+        <div class="info-item">
+            <i class="fa-solid fa-hurricane"></i>
+            <div>
+                <h4>Know the Risks</h4>
+                <p>Understand how cyclones form and why Myanmar is vulnerable.</p>
+            </div>
+        </div>
+
+        <div class="info-item">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <div>
+                <h4>Get Early Warnings</h4>
+                <p>Stay informed through official alerts and trusted sources.</p>
+            </div>
+        </div>
+
+        <div class="info-item">
+            <i class="fa-solid fa-clipboard-list"></i>
+            <div>
+                <h4>Prepare Your Family</h4>
+                <p>Make a plan, gather supplies, protect your home.</p>
+            </div>
+        </div>
+
+        <div class="info-item">
+            <i class="fa-solid fa-seedling"></i>
+            <div>
+                <h4>Reduce the Impact</h4>
+                <p>Support safer communities, cleaner environments and stronger infrastructure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-text">
+            <div class="section-tag">Your Safety Matters</div>
+            <h3>Stormora</h3>
+            <h4>Learn. Prepare. Take Action.</h4>
+
+            <p>
+                Our goal is to help people in Myanmar understand the risks of
+                cyclone, receive early warnings, and take practical steps to
+                reduce damage and reduce losses.
+            </p>
+
+            <a href="aboutus.html" class="btn btn-dark">
+                Learn More About Us
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="about-image">
+            <img src="cyclone2.jpg" alt="Myanmar coastal landscape">
+        </div>
+    </section>
+
+    <section class="topics-section">
+        <div class="topics-header">
+            <span>Explore Our Key Topics</span>
+        </div>
+
+        <div class="topics-grid">
+
+            <div class="topic-card">
+                <div class="topic-img">
+                    <img src="cyclone4.jpg" alt="Cyclone">
+                </div>
+
+                <div class="topic-body">
+                    <i class="fa-solid fa-hurricane"></i>
+                    <h5>Understanding Cyclones</h5>
+                    <p>What they are, how they form, and why they matter.</p>
+
+                    <div class="topic-footer">
+                        <button class="arrow-btn" aria-label="Learn about cyclones"
+                            onclick="window.location.href='understanding.html'">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-img">
+                    <img src="warning.jpg" alt="Warning System">
+                </div>
+
+                <div class="topic-body">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h5>Early Warning System</h5>
+                    <p>How to get alerts and what to do.</p>
+
+                    <div class="topic-footer">
+                        <button class="arrow-btn" aria-label="Learn about early warning systems"
+                            onclick="window.location.href='warningsystem.html'">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-img">
+                    <img src="safe.jpg" alt="Disaster Preparation">
+                </div>
+
+                <div class="topic-body">
+                    <i class="fa-solid fa-kit-medical"></i>
+                    <h5>Disaster Preparation</h5>
+                    <p>Be ready at home, school and in your community.</p>
+
+                    <div class="topic-footer">
+                        <button class="arrow-btn" aria-label="Learn about disaster preparation"
+                            onclick="window.location.href='cyclone_preparation.html'">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-img">
+                    <img src="mercia.jpg" alt="Prevention">
+                </div>
+
+                <div class="topic-body">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h5>Prevention &amp; Risk Reduction</h5>
+                    <p>Safer environments. Stronger communities.</p>
+
+                    <div class="topic-footer">
+                        <button class="arrow-btn" aria-label="Learn about risk reduction"
+                            onclick="window.location.href='prevention.html'">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-card">
+                <div class="topic-img">
+                    <img src="action.jpg" alt="Take Action">
+                </div>
+
+                <div class="topic-body">
+                    <i class="fa-solid fa-users"></i>
+                    <h5>Take Action</h5>
+                    <p>Small actions. Big impact.</p>
+
+                    <div class="topic-footer">
+                        <button class="arrow-btn" aria-label="Take action"
+                            onclick="window.location.href='takeaction.html'">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+ <section class="stormora-contact-page" id="contact">
+
+        <div class="contact-top">
+
+            <div class="contact-words">
+                <h2>Got a question?<br>Talk to us!</h2>
+
+                <p>
+                    Want to know more about cyclone safety?
+                    You can send us a message here. We are happy
+                    to hear your ideas!
+                </p>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+
+                <label for="name">Your name</label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Type your name"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Type your Gmail address"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                    title="Please enter a valid Gmail address ending in @gmail.com"
+                    required>
+
+                <label for="topic">Topic</label>
+                <select id="topic">
+                    <option>Cyclone safety</option>
+                    <option>Warning systems</option>
+                    <option>School project</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="message">Your message</label>
+                <textarea
+                    id="message"
+                    rows="2"
+                    placeholder="Write something..."
+                    required></textarea>
+
+                <button type="submit">Send message →</button>
+
+                <p id="reply" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+
+        <div class="contact-bottom">
+
+            <div>
+                <h2>Get in touch</h2>
+
+                <h4>Email</h4>
+                <p>stormora@gmail.com</p>
+
+                <h4>What we do</h4>
+                <p>We share simple tips to help people prepare for cyclones.</p>
+            </div>
+
+            <div>
+                <h2>Quick links</h2>
+
+                <p><a href="index.html">Home</a></p>
+                <p><a href="understanding.html">Cyclone safety</a></p>
+                <p><a href="warningsystem.html">Early warnings</a></p>
+                <p><a href="#contact-form">Contact</a></p>
+            </div>
+
+            <div class="last">
+                <h2>Stay ready!</h2>
+
+                <p>
+                    Listen to weather updates, know where to go,
+                    and have an emergency plan.
+                </p>
+
+                <p>Let's help everyone stay prepared.</p>
+            </div>
+
+        </div>
+
+        <div class="contact-footer">
+            <h3>@STORMORA</h3>
+            <p>© 2026–2027 Stomora. All rights reserved</p>
+        </div>
+
+    </section>
+
+    <script>
+        const searchToggle = document.getElementById("searchToggle");
+        const searchPanel = document.getElementById("searchPanel");
+        const pageSearch = document.getElementById("pageSearch");
+        const searchResults = document.getElementById("searchResults");
+
+        searchToggle.addEventListener("click", function (event) {
+            event.stopPropagation();
+
+            const isOpen = searchPanel.classList.toggle("show");
+
+            searchToggle.setAttribute("aria-expanded", isOpen);
+
+            if (isOpen) {
+                pageSearch.focus();
+            } else {
+                pageSearch.value = "";
+                filterPages("");
+            }
+        });
+
+        function filterPages(searchValue) {
+            const pages = searchResults.querySelectorAll("li:not(.no-results)");
+            let matches = 0;
+
+            pages.forEach(function (page) {
+                const pageName = page.textContent.toLowerCase();
+
+                if (pageName.includes(searchValue)) {
+                    page.style.display = "block";
+                    matches++;
+                } else {
+                    page.style.display = "none";
+                }
+            });
+
+            const oldMessage = searchResults.querySelector(".no-results");
+
+            if (oldMessage) {
+                oldMessage.remove();
+            }
+
+            if (matches === 0) {
+                const message = document.createElement("li");
+                message.className = "no-results";
+                message.textContent = "No pages found.";
+                searchResults.appendChild(message);
+            }
+        }
+
+        pageSearch.addEventListener("input", function () {
+            filterPages(pageSearch.value.toLowerCase().trim());
+        });
+
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".search-container")) {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        const contactForm = document.getElementById("contact-form");
+        const reply = document.getElementById("reply");
+
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+
+            const gmailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/i;
+
+            if (!gmailPattern.test(email)) {
+                reply.textContent = "Please enter a valid Gmail address ending in @gmail.com.";
+                return;
+            }
+
+            reply.textContent = "Thanks " + name + "! Message received.";
+
+            contactForm.reset();
+        });
+    </script>
+
+</body>
+</html>

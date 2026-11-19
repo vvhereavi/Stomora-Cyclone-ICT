@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Cyclones - Stormora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="understanding.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+<header>
+        <a href="#" class="logo-area">
+            <div class="logo-text">
+                <h1>Cyclone</h1>
+                <span>Stormora</span>
+            </div>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="understanding.html" class="active">Understanding Cyclones</a>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">
+                        Action &amp; Safety
+                        <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="warningsystem.html">Early Warning Systems</a>
+                        </li>
+                        <li>
+                            <a href="cyclone_preparation.html">Disaster Preparation</a>
+                        </li>
+                        <li>
+                            <a href="prevention.html">Prevention &amp; Risk Reduction</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="casestudy.html">Case Study (Myanmar)</a>
+                </li>
+                <li>
+                    <a href="takeaction.html">Take Action</a>
+                </li>
+                <li class="search-container">
+                    <button
+                        type="button"
+                        class="search-toggle"
+                        id="searchToggle"
+                        aria-label="Open page search"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+
+                    <div class="search-panel" id="searchPanel">
+                        <div class="search-input-wrapper">
+                            <input
+                                type="search"
+                                id="pageSearch"
+                                placeholder="Search pages..."
+                                autocomplete="off"
+                                aria-label="Search website pages">
+                        </div>
+
+                        <ul class="search-results" id="searchResults">
+                            <li data-name="Homepage">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li data-name="About Us">
+                                <a href="aboutus.html">About Us</a>
+                            </li>
+                            <li data-name="Understanding Cyclones">
+                                <a href="understanding.html">Understanding Cyclones</a>
+                            </li>
+                            <li data-name="Early Warning Systems">
+                                <a href="warningsystem.html">Early Warning Systems</a>
+                            </li>
+                            <li data-name="Disaster Preparation">
+                                <a href="cyclone_preparation.html">Disaster Preparation</a>
+                            </li>
+                            <li data-name="Prevention and Risk Reduction">
+                                <a href="prevention.html">Prevention &amp; Risk Reduction</a>
+                            </li>
+                            <li data-name="Case Study Myanmar">
+                                <a href="casestudy.html">Case Study (Myanmar)</a>
+                            </li>
+                            <li data-name="Take Action">
+                                <a href="takeaction.html">Take Action</a>
+                            </li>
+                        </ul>
+                        <p class="no-results" id="noResults">
+                            No pages found.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="understanding">
+        <div class="cyclone-banner">
+            <div class="banner-text">
+                <div class="banner-label">
+                    STORMORA | UNDERSTANDING CYCLONES
+                </div>
+                <h1>Understand<br>Cyclones</h1>
+                <p>
+                    Learn about cyclones, recognise the dangers
+                    and discover how to protect yourself and others.
+                </p>
+                <div class="banner-line"></div>
+            </div>
+        </div>
+
+        <div class="understanding-intro">
+            <div class="section-label">EXPLORE THE SCIENCE</div>
+            <h2>Discover the World of Cyclones</h2>
+            <p>
+                Cyclones are powerful natural disasters that can affect
+                thousands of people, especially those living in coastal areas.
+                Understanding how they form, the risks they bring and how
+                early warnings work can help communities prepare before
+                a storm arrives.
+            </p>
+        </div>
+
+        <div class="cyclone-info">
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="disaster.jpg"
+                         alt="Satellite image of a large tropical cyclone">
+                </div>
+                <div class="card-content">
+                    <div class="card-number">01 / THE BASICS</div>
+                    <h3>What Is a Cyclone?</h3>
+                    <p>
+                        A cyclone is a large rotating storm that develops
+                        over warm ocean water. It forms around an area of
+                        low pressure and can bring powerful winds, heavy
+                        rainfall and thunderstorms. Cyclones are also known
+                        as hurricanes or typhoons in different parts of
+                        the world.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="hurri.jpg"
+                         alt="Illustration showing how a tropical cyclone forms">
+                </div>
+
+                <div class="card-content">
+                    <div class="card-number">02 / FORMATION</div>
+                    <h3>How Do They Form?</h3>
+                    <p>
+                        Cyclones begin when warm ocean water heats the air
+                        above it. The warm, moist air rises, creating low
+                        pressure. More air moves in and begins to rotate.
+                        Under suitable conditions, the storm grows stronger
+                        and develops into a cyclone.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="card-image">
+                    <img src="prev.jpg"
+                         alt="Coastal community affected by cyclone damage">
+                </div>
+
+                <div class="card-content">
+                    <div class="card-number">03 / THE RISKS</div>
+                    <h3>Know the Dangers</h3>
+                    <p>
+                        Cyclones can cause serious damage through strong
+                        winds, heavy rainfall, flooding and storm surges.
+                        These hazards can destroy homes, damage roads and
+                        disrupt electricity and communication systems,
+                        making coastal communities especially vulnerable.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="topics-section">
+            <div class="topics-heading">
+                <div class="section-label">UNDERSTAND THE THREATS</div>
+                <h2>Four Key Cyclone Hazards</h2>
+                <p>
+                    Learn about the major dangers associated with cyclones.
+                </p>
+            </div>
+
+            <div class="quick-topics">
+                <div class="topic">
+                    <div class="topic-circle circle-one">💨</div>
+                    <h3>Strong Winds</h3>
+                    <p>
+                        Powerful winds can damage buildings, break trees
+                        and create dangerous flying debris.
+                    </p>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-circle circle-two">🌧️</div>
+                    <h3>Heavy Rainfall</h3>
+                    <p>
+                        Continuous rainfall can cause floods, landslides
+                        and unsafe road conditions.
+                    </p>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-circle circle-three">🌊</div>
+                    <h3>Storm Surges</h3>
+                    <p>
+                        Rising seawater can move inland and flood
+                        low-lying coastal communities.
+                    </p>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-circle circle-four">📢</div>
+                    <h3>Early Warnings</h3>
+                    <p>
+                        Weather alerts help people prepare, evacuate
+                        and move to safer locations in time.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-message">
+            <div class="final-label">KNOWLEDGE SAVES LIVES</div>
+            <h2>Why Is Cyclone Awareness Important?</h2>
+            <p>
+                Cyclone Nargis in 2008 showed how devastating a cyclone
+                can be for Myanmar. Many coastal communities continue
+                to face risks from strong storms and flooding. By learning
+                about cyclone warnings and disaster preparedness, younger
+                generations can become more informed and help their
+                families and communities stay safer.
+            </p>
+            <div class="final-line"></div>
+        </div>
+    </section>
+
+ <section class="stormora-contact-page" id="contact">
+
+        <div class="contact-top">
+
+            <div class="contact-words">
+                <h2>Got a question?<br>Talk to us!</h2>
+
+                <p>
+                    Want to know more about cyclone safety?
+                    You can send us a message here. We are happy
+                    to hear your ideas!
+                </p>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+
+                <label for="name">Your name</label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Type your name"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Type your Gmail address"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                    title="Please enter a valid Gmail address ending in @gmail.com"
+                    required>
+
+                <label for="topic">Topic</label>
+                <select id="topic">
+                    <option>Cyclone safety</option>
+                    <option>Warning systems</option>
+                    <option>School project</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="message">Your message</label>
+                <textarea
+                    id="message"
+                    rows="2"
+                    placeholder="Write something..."
+                    required></textarea>
+
+                <button type="submit">Send message →</button>
+
+                <p id="reply" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+
+        <div class="contact-bottom">
+
+            <div>
+                <h2>Get in touch</h2>
+
+                <h4>Email</h4>
+                <p>stormora@gmail.com</p>
+
+                <h4>What we do</h4>
+                <p>We share simple tips to help people prepare for cyclones.</p>
+            </div>
+
+            <div>
+                <h2>Quick links</h2>
+
+                <p><a href="index.html">Home</a></p>
+                <p><a href="understanding.html">Cyclone safety</a></p>
+                <p><a href="warningsystem.html">Early warnings</a></p>
+                <p><a href="#contact-form">Contact</a></p>
+            </div>
+
+            <div class="last">
+                <h2>Stay ready!</h2>
+
+                <p>
+                    Listen to weather updates, know where to go,
+                    and have an emergency plan.
+                </p>
+
+                <p>Let's help everyone stay prepared.</p>
+            </div>
+
+        </div>
+
+        <div class="contact-footer">
+            <h3>@STORMORA</h3>
+            <p>© 2026–2027 Stomora. All rights reserved</p>
+        </div>
+
+    </section>
+
+    <script>
+        const searchToggle = document.getElementById("searchToggle");
+        const searchPanel = document.getElementById("searchPanel");
+        const pageSearch = document.getElementById("pageSearch");
+        const searchResults = document.getElementById("searchResults");
+
+        searchToggle.addEventListener("click", function (event) {
+            event.stopPropagation();
+
+            const isOpen = searchPanel.classList.toggle("show");
+
+            searchToggle.setAttribute("aria-expanded", isOpen);
+
+            if (isOpen) {
+                pageSearch.focus();
+            } else {
+                pageSearch.value = "";
+                filterPages("");
+            }
+        });
+
+        function filterPages(searchValue) {
+            const pages = searchResults.querySelectorAll("li:not(.no-results)");
+            let matches = 0;
+
+            pages.forEach(function (page) {
+                const pageName = page.textContent.toLowerCase();
+
+                if (pageName.includes(searchValue)) {
+                    page.style.display = "block";
+                    matches++;
+                } else {
+                    page.style.display = "none";
+                }
+            });
+
+            const oldMessage = searchResults.querySelector(".no-results");
+
+            if (oldMessage) {
+                oldMessage.remove();
+            }
+
+            if (matches === 0) {
+                const message = document.createElement("li");
+                message.className = "no-results";
+                message.textContent = "No pages found.";
+                searchResults.appendChild(message);
+            }
+        }
+
+        pageSearch.addEventListener("input", function () {
+            filterPages(pageSearch.value.toLowerCase().trim());
+        });
+
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".search-container")) {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        const contactForm = document.getElementById("contact-form");
+        const reply = document.getElementById("reply");
+
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+
+            const gmailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/i;
+
+            if (!gmailPattern.test(email)) {
+                reply.textContent = "Please enter a valid Gmail address ending in @gmail.com.";
+                return;
+            }
+
+            reply.textContent = "Thanks " + name + "! Message received.";
+
+            contactForm.reset();
+        });
+    </script>
+
+</body>
+</html>

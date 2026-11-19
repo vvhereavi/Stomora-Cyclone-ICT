@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Stormora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<header>
+        <a href="index.html" class="logo-area">
+            <div class="logo-text">
+                <h1>Cyclone</h1>
+                <span>Stormora</span>
+            </div>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html" class="active">About Us</a></li>
+                <li><a href="understanding.html">Understanding Cyclones</a></li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">
+                        Action &amp; Safety
+                        <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="warningsystem.html">Early Warning Systems</a></li>
+                        <li><a href="cyclone_preparation.html">Disaster Preparation</a></li>
+                        <li><a href="prevention.html">Prevention &amp; Risk Reduction</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="casestudy.html">Case Study (Myanmar)</a></li>
+                <li><a href="takeaction.html">Take Action</a></li>
+
+                <li class="search-container">
+                    <button class="search-icon" id="searchToggle" aria-label="Open search" aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                    <div class="search-panel" id="searchPanel">
+                        <input type="text" id="pageSearch" placeholder="Search pages..." autocomplete="off">
+
+                        <ul id="searchResults">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="understanding.html">Understanding Cyclones</a></li>
+                            <li><a href="warningsystem.html">Early Warning Systems</a></li>
+                            <li><a href="cyclone_preparation.html">Disaster Preparation</a></li>
+                            <li><a href="prevention.html">Prevention &amp; Risk Reduction</a></li>
+                            <li><a href="casestudy.html">Case Study (Myanmar)</a></li>
+                            <li><a href="takeaction.html">Take Action</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="members">
+        <h1>Meet Our <span>Team</span></h1>
+
+        <p class="subtitle">
+            The people behind Stormora and our mission to promote cyclone awareness.
+        </p>
+
+        <div class="member-list">
+
+            <div class="member">
+                <div class="photo-frame">
+                    <img src="4.jpg" alt="Poe Wati Oo">
+                </div>
+                <h2>Poe Wati Oo</h2>
+                <p>Team Member</p>
+            </div>
+
+            <div class="member">
+                <div class="photo-frame">
+                    <img src="1.jpg" alt="Moe Phyu Sin Maung">
+                </div>
+                <h2>Moe Phyu Sin Maung</h2>
+                <p>Team Member</p>
+            </div>
+
+            <div class="member">
+                <div class="photo-frame">
+                    <img src="3.jpg" alt="May Myat Thaw">
+                </div>
+                <h2>May Myat Thaw</h2>
+                <p>Team Member</p>
+            </div>
+
+            <div class="member">
+                <div class="photo-frame">
+                    <img src="2.jpg" alt="Han Hpone Nyan">
+                </div>
+                <h2>Han Hpone Nyan</h2>
+                <p>Team Member</p>
+            </div>
+
+        </div>
+
+        <div class="team-footer">
+            <span>STORMORA</span> — BE READY. STAY SAFE.
+        </div>
+    </section>
+
+    <section class="mission-vision">
+
+    <div class="mission">
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to raise awareness about cyclone risks and
+            strengthen disaster preparedness in Myanmar's coastal communities.
+            Through Stormora, we aim to provide reliable information about
+            cyclones, explain the importance of early warning systems, and
+            share practical safety guidelines. We also hope to educate
+            younger generations so they can recognize potential dangers,
+            respond appropriately to warnings, and take the necessary steps
+            to protect themselves, their families, and their communities.
+        </p>
+    </div>
+
+    <div class="vision">
+        <h2>Our Vision</h2>
+        <p>
+            Our vision is to create safer and more resilient coastal
+            communities where everyone has the knowledge and confidence
+            to prepare for and respond to cyclones. We hope to build a
+            future where reliable warnings reach everyone, disaster
+            preparedness becomes a shared responsibility, and people
+            understand how to reduce risks before disasters occur.
+            By encouraging awareness and preparedness among younger
+            generations, we aim to contribute to a safer future for
+            communities across Myanmar.
+        </p>
+    </div>
+
+</section>
+
+ <section class="stormora-contact-page" id="contact">
+
+        <div class="contact-top">
+
+            <div class="contact-words">
+                <h2>Got a question?<br>Talk to us!</h2>
+
+                <p>
+                    Want to know more about cyclone safety?
+                    You can send us a message here. We are happy
+                    to hear your ideas!
+                </p>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+
+                <label for="name">Your name</label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Type your name"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Type your Gmail address"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                    title="Please enter a valid Gmail address ending in @gmail.com"
+                    required>
+
+                <label for="topic">Topic</label>
+                <select id="topic">
+                    <option>Cyclone safety</option>
+                    <option>Warning systems</option>
+                    <option>School project</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="message">Your message</label>
+                <textarea
+                    id="message"
+                    rows="2"
+                    placeholder="Write something..."
+                    required></textarea>
+
+                <button type="submit">Send message →</button>
+
+                <p id="reply" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+
+        <div class="contact-bottom">
+
+            <div>
+                <h2>Get in touch</h2>
+
+                <h4>Email</h4>
+                <p>stormora@gmail.com</p>
+
+                <h4>What we do</h4>
+                <p>We share simple tips to help people prepare for cyclones.</p>
+            </div>
+
+            <div>
+                <h2>Quick links</h2>
+
+                <p><a href="index.html">Home</a></p>
+                <p><a href="understanding.html">Cyclone safety</a></p>
+                <p><a href="warningsystem.html">Early warnings</a></p>
+                <p><a href="#contact-form">Contact</a></p>
+            </div>
+
+            <div class="last">
+                <h2>Stay ready!</h2>
+
+                <p>
+                    Listen to weather updates, know where to go,
+                    and have an emergency plan.
+                </p>
+
+                <p>Let's help everyone stay prepared.</p>
+            </div>
+
+        </div>
+
+        <div class="contact-footer">
+            <h3>@STORMORA</h3>
+            <p>© 2026–2027 Stomora. All rights reserved</p>
+        </div>
+
+    </section>
+
+    <script>
+        const searchToggle = document.getElementById("searchToggle");
+        const searchPanel = document.getElementById("searchPanel");
+        const pageSearch = document.getElementById("pageSearch");
+        const searchResults = document.getElementById("searchResults");
+
+        searchToggle.addEventListener("click", function (event) {
+            event.stopPropagation();
+
+            const isOpen = searchPanel.classList.toggle("show");
+
+            searchToggle.setAttribute("aria-expanded", isOpen);
+
+            if (isOpen) {
+                pageSearch.focus();
+            } else {
+                pageSearch.value = "";
+                filterPages("");
+            }
+        });
+
+        function filterPages(searchValue) {
+            const pages = searchResults.querySelectorAll("li:not(.no-results)");
+            let matches = 0;
+
+            pages.forEach(function (page) {
+                const pageName = page.textContent.toLowerCase();
+
+                if (pageName.includes(searchValue)) {
+                    page.style.display = "block";
+                    matches++;
+                } else {
+                    page.style.display = "none";
+                }
+            });
+
+            const oldMessage = searchResults.querySelector(".no-results");
+
+            if (oldMessage) {
+                oldMessage.remove();
+            }
+
+            if (matches === 0) {
+                const message = document.createElement("li");
+                message.className = "no-results";
+                message.textContent = "No pages found.";
+                searchResults.appendChild(message);
+            }
+        }
+
+        pageSearch.addEventListener("input", function () {
+            filterPages(pageSearch.value.toLowerCase().trim());
+        });
+
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".search-container")) {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        const contactForm = document.getElementById("contact-form");
+        const reply = document.getElementById("reply");
+
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+
+            const gmailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/i;
+
+            if (!gmailPattern.test(email)) {
+                reply.textContent = "Please enter a valid Gmail address ending in @gmail.com.";
+                return;
+            }
+
+            reply.textContent = "Thanks " + name + "! Message received.";
+
+            contactForm.reset();
+        });
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevention - Stormora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="prevention.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo-area">
+            <div class="logo-text">
+                <h1>Cyclone</h1>
+                <span>Stormora</span>
+            </div>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="understanding.html">Understanding Cyclones</a></li>
+                <li class="dropdown active">
+                    <button class="dropbtn active" type="button">
+                        Action &amp; Safety
+                        <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="warningsystem.html">Early Warning Systems</a></li>
+                        <li><a href="cyclone_preparation.html">Disaster Preparation</a></li>
+                        <li><a href="prevention.html">Prevention &amp; Risk Reduction</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="casestudy.html">Case Study (Myanmar)</a></li>
+                <li><a href="takeaction.html">Take Action</a></li>
+
+                <li class="search-container">
+                    <button
+                        type="button"
+                        class="search-toggle"
+                        id="searchToggle"
+                        aria-label="Open page search"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+
+                    <div class="search-panel" id="searchPanel">
+                        <div class="search-input-wrapper">
+                            <input
+                                type="search"
+                                id="pageSearch"
+                                placeholder="Search pages..."
+                                autocomplete="off"
+                                aria-label="Search website pages">
+                        </div>
+
+                        <ul class="search-results" id="searchResults">
+                            <li data-name="Homepage">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li data-name="About Us">
+                                <a href="aboutus.html">About Us</a>
+                            </li>
+                            <li data-name="Understanding Cyclones">
+                                <a href="understanding.html">Understanding Cyclones</a>
+                            </li>
+                            <li data-name="Early Warning Systems">
+                                <a href="warningsystem.html">Early Warning Systems</a>
+                            </li>
+                            <li data-name="Disaster Preparation">
+                                <a href="cyclone_preparation.html">Disaster Preparation</a>
+                            </li>
+                            <li data-name="Prevention and Risk Reduction">
+                                <a href="prevention.html">Prevention &amp; Risk Reduction</a>
+                            </li>
+                            <li data-name="Case Study Myanmar">
+                                <a href="casestudy.html">Case Study (Myanmar)</a>
+                            </li>
+                            <li data-name="Take Action">
+                                <a href="takeaction.html">Take Action</a>
+                            </li>
+                        </ul>
+
+                        <p class="no-results" id="noResults">
+                            No pages found.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="introduction">
+        <div class="intro-image">
+            <img src="cyclone5.jpg" alt="Natural landscape">
+        </div>
+        <div class="intro-text">
+            <div class="eyebrow">WHY PREVENTION MATTERS</div>
+            <h2>Reducing risks starts long before a cyclone arrives.</h2>
+            <p>
+                Coastal communities in Myanmar face risks from
+                strong winds, storm surges and coastal erosion.
+                These hazards can damage homes, farmland,
+                roads and important infrastructure.
+            </p>
+            <p>
+                Cyclone impact prevention focuses on reducing
+                these risks through long-term improvements.
+                Protecting natural barriers, strengthening
+                coastal structures and managing land use
+                can help limit future damage.
+            </p>
+            <div class="intro-line"></div>
+        </div>
+    </section>
+
+    <section class="strategies" id="strategies">
+        <div class="section-heading">
+            <div>
+                <div class="eyebrow">THREE KEY STRATEGIES</div>
+                <h2>Building stronger protection against cyclones.</h2>
+            </div>
+            <p>
+                These long-term solutions can reduce the vulnerability
+                of coastal communities in cyclone-prone areas.
+            </p>
+        </div>
+
+        <div class="strategy">
+            <div class="strategy-image">
+                <img src="nasa.jpg" alt="Forest and trees">
+            </div>
+            <div class="strategy-content">
+                <div class="strategy-number">01 / NATURAL PROTECTION</div>
+                <h3>Restore and Protect Mangrove Forests</h3>
+                <p>
+                    Mangrove forests act as natural barriers along coastlines.
+                    Their thick roots help hold soil together, reduce coastal
+                    erosion and slow down waves and storm surges before they
+                    reach nearby villages.
+                </p>
+                <p>
+                    In cyclone-prone areas of Myanmar, especially the
+                    Ayeyarwady Delta, protecting existing mangroves and
+                    replanting damaged areas can help strengthen natural
+                    coastal protection. Cutting down mangroves should
+                    also be controlled.
+                </p>
+                <div class="impact">
+                    <strong>HOW DOES THIS PREVENT DAMAGE?</strong>
+                    <p>
+                        Mangroves can reduce wave energy and coastal erosion,
+                        helping protect nearby homes, farmland and communities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="strategy">
+            <div class="strategy-image">
+                <img src="coll1.jpg" alt="Strong buildings and infrastructure">
+            </div>
+
+            <div class="strategy-content">
+                <div class="strategy-number">02 / STRONGER BUILDINGS</div>
+                <h3>Construct Cyclone-Resistant Buildings</h3>
+                <p>
+                    Strong winds during cyclones can damage roofs, walls
+                    and entire buildings. Houses and important facilities
+                    in cyclone-prone areas should be designed with stronger
+                    structures to reduce the risk of damage.
+                </p>
+                <p>
+                    This can include securely attached roofs, reinforced
+                    walls, strong foundations and suitable building
+                    materials. Schools, hospitals and community buildings
+                    should also follow cyclone-resistant construction
+                    standards.
+                </p>
+                <div class="impact">
+                    <strong>HOW DOES THIS REDUCE DAMAGE?</strong>
+                    <p>
+                        Stronger buildings are less likely to be severely
+                        damaged by strong winds, helping protect people
+                        and important facilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="strategy">
+            <div class="strategy-image">
+                <img src="thunder.jpg" alt="Green landscape">
+            </div>
+            <div class="strategy-content">
+                <div class="strategy-number">03 / COASTAL PROTECTION</div>
+                <h3>Build and Maintain Coastal Protection Systems</h3>
+                <p>
+                    Storm surges can push seawater inland and cause
+                    serious flooding in low-lying coastal communities.
+                    Seawalls and embankments can help reduce the amount
+                    of seawater entering vulnerable areas.
+                </p>
+                <p>
+                    Authorities can also improve drainage systems
+                    and maintain waterways so that heavy rainfall
+                    can flow away more easily. These structures
+                    should be properly planned and maintained
+                    to remain effective.
+                </p>
+                <div class="impact">
+                    <strong>HOW DOES THIS PREVENT DAMAGE?</strong>
+                    <p>
+                        Coastal barriers can reduce the impact of storm surges,
+                        while better drainage can help reduce flooding
+                        caused by heavy rainfall.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <section class="stormora-contact-page" id="contact">
+
+        <div class="contact-top">
+
+            <div class="contact-words">
+                <h2>Got a question?<br>Talk to us!</h2>
+
+                <p>
+                    Want to know more about cyclone safety?
+                    You can send us a message here. We are happy
+                    to hear your ideas!
+                </p>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+
+                <label for="name">Your name</label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Type your name"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Type your Gmail address"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                    title="Please enter a valid Gmail address ending in @gmail.com"
+                    required>
+
+                <label for="topic">Topic</label>
+                <select id="topic">
+                    <option>Cyclone safety</option>
+                    <option>Warning systems</option>
+                    <option>School project</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="message">Your message</label>
+                <textarea
+                    id="message"
+                    rows="2"
+                    placeholder="Write something..."
+                    required></textarea>
+
+                <button type="submit">Send message →</button>
+
+                <p id="reply" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+
+        <div class="contact-bottom">
+
+            <div>
+                <h2>Get in touch</h2>
+
+                <h4>Email</h4>
+                <p>stormora@gmail.com</p>
+
+                <h4>What we do</h4>
+                <p>We share simple tips to help people prepare for cyclones.</p>
+            </div>
+
+            <div>
+                <h2>Quick links</h2>
+
+                <p><a href="index.html">Home</a></p>
+                <p><a href="understanding.html">Cyclone safety</a></p>
+                <p><a href="warningsystem.html">Early warnings</a></p>
+                <p><a href="#contact-form">Contact</a></p>
+            </div>
+
+            <div class="last">
+                <h2>Stay ready!</h2>
+
+                <p>
+                    Listen to weather updates, know where to go,
+                    and have an emergency plan.
+                </p>
+
+                <p>Let's help everyone stay prepared.</p>
+            </div>
+
+        </div>
+
+        <div class="contact-footer">
+            <h3>@STORMORA</h3>
+            <p>© 2026–2027 Stomora. All rights reserved</p>
+        </div>
+
+    </section>
+
+    <script>
+        const searchToggle = document.getElementById("searchToggle");
+        const searchPanel = document.getElementById("searchPanel");
+        const pageSearch = document.getElementById("pageSearch");
+        const searchResults = document.getElementById("searchResults");
+
+        searchToggle.addEventListener("click", function (event) {
+            event.stopPropagation();
+
+            const isOpen = searchPanel.classList.toggle("show");
+
+            searchToggle.setAttribute("aria-expanded", isOpen);
+
+            if (isOpen) {
+                pageSearch.focus();
+            } else {
+                pageSearch.value = "";
+                filterPages("");
+            }
+        });
+
+        function filterPages(searchValue) {
+            const pages = searchResults.querySelectorAll("li:not(.no-results)");
+            let matches = 0;
+
+            pages.forEach(function (page) {
+                const pageName = page.textContent.toLowerCase();
+
+                if (pageName.includes(searchValue)) {
+                    page.style.display = "block";
+                    matches++;
+                } else {
+                    page.style.display = "none";
+                }
+            });
+
+            const oldMessage = searchResults.querySelector(".no-results");
+
+            if (oldMessage) {
+                oldMessage.remove();
+            }
+
+            if (matches === 0) {
+                const message = document.createElement("li");
+                message.className = "no-results";
+                message.textContent = "No pages found.";
+                searchResults.appendChild(message);
+            }
+        }
+
+        pageSearch.addEventListener("input", function () {
+            filterPages(pageSearch.value.toLowerCase().trim());
+        });
+
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".search-container")) {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                searchPanel.classList.remove("show");
+                searchToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        const contactForm = document.getElementById("contact-form");
+        const reply = document.getElementById("reply");
+
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+
+            const gmailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/i;
+
+            if (!gmailPattern.test(email)) {
+                reply.textContent = "Please enter a valid Gmail address ending in @gmail.com.";
+                return;
+            }
+
+            reply.textContent = "Thanks " + name + "! Message received.";
+
+            contactForm.reset();
+        });
+    </script>
+
+</body>
+</html>
